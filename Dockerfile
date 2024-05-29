@@ -15,7 +15,7 @@ RUN docker-php-ext-enable mysqli pdo_mysql
 # Set environment variables for MySQL
 ENV MYSQL_HOST=db
 ENV MYSQL_DATABASE=mydb
-ENV MYSQL_ROOT_PASSWORD=db
+ENV MYSQL_ROOT_PASSWORD=root
 ENV MYSQL_USER=user
 ENV MYSQL_PASSWORD=pass
 ENV MYSQL_PORT=3306
