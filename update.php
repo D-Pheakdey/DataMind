@@ -1,5 +1,5 @@
 <?php
-include "dbconnect.php";
+include "db.php";
 $id = $_GET["id"];
 
 if (isset($_POST["submit"])) {
